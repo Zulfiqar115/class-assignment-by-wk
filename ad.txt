@@ -1,0 +1,31 @@
+Callback:
+ promises, and async/await are all mechanisms in JavaScript 
+ (and other programming languages) used to handle asynchronous 
+ operations. Let's break down the concepts and discuss their 
+ advantages and disadvantages.
+
+Callbacks:
+Callbacks are functions passed as arguments to other functions, 
+which are then executed once an asynchronous operation completes. 
+They are the traditional way to handle asynchronous code in JavaScript.
+ 
+ WHAT IS Callback
+ ================  PASS A FUNCTION WITHIN A FUNCTION AS A PARAMETER.S
+
+Advantages of Callbacks:
+========================
+
+Simplicity: Callbacks are straightforward to understand and use.
+Good for control flow: They can handle complex control flow in certain scenarios
+.
+Disadvantages of Callbacks:
+===========================
+Callback hell (Pyramid of Doom): When dealing with multiple nested asynchronous
+ operations, the code can become hard to read and maintain.
+Error handling can be challenging: Error propagation can be cumbersome.
+Lack of sequential readability: Code can become less sequential and harder to follow.
+Promises:
+Promises were introduced to address the issues with callback-based code. A Promise 
+represents a value that may not be available yet but will be resolved or rejected
+ at some point in the future.
+
